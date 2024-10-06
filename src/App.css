@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEF9D9;
+    color:#524C42;
+  }
+  
+  header {
+    background-color: #4A4947;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .quiz-container {
+    margin: 20px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-card {
+    margin-bottom: 20px;
+  }
+  
+  /* button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d4810;
+  } */
+  
+  .options {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d3f0f;
+  } */
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #889889;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/*   
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:enabled {
+    background-color: #011d03;
+  } */
+  
+  /* .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:enabled {
+    background-color: #5045a0;
+  }
+  
+  .result {
+    text-align: center;
+  }
+  
+  .result h2 {
+    margin-bottom: 20px;
+  }
+  
+  .result p {
+    font-size: 1.5rem;
+  }
+  
